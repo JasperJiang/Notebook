@@ -17,4 +17,6 @@
   * [Database Container](docker/database-container.md)
 * [Linux](linux/README.md)
   * [Common](linux/common.md)
+  * [SSH](linux/ssh.md)
+  * [修改redhat的源变成centos](linux/xiu-gai-redhat-de-yuan-bian-cheng-centos.md)
 

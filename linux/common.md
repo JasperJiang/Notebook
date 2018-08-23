@@ -106,3 +106,17 @@ netstat -rn
 ps -eo pcpu,pid,user,args | sort -k 1 -r | head -16
 ```
 
+### static network 静态IP设置
+
+```bash
+vi /etc/network/interfaces
+```
+
+添加内容：
+
+```text
+auto eth0
+iface eth0 inet static
+address 192.168.8.100    
+```
+
