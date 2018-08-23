@@ -27,4 +27,5 @@
 * [Design Pattern](design-pattern/README.md)
   * [Singleton 单例模式](design-pattern/singleton-dan-li-mo-shi.md)
   * [Factory &  Abstract Factory 工厂模式和抽象工厂](design-pattern/factory-abstract-factory-gong-chang-mo-shi-he-chou-xiang-gong-chang.md)
+  * [Builder 建造者模式](design-pattern/builder-jian-zao-zhe-mo-shi.md)
 
