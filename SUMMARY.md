@@ -28,4 +28,12 @@
   * [Singleton 单例模式](design-pattern/singleton-dan-li-mo-shi.md)
   * [Factory &  Abstract Factory 工厂模式和抽象工厂](design-pattern/factory-abstract-factory-gong-chang-mo-shi-he-chou-xiang-gong-chang.md)
   * [Builder 建造者模式](design-pattern/builder-jian-zao-zhe-mo-shi.md)
+  * [Prototype 原型模式](design-pattern/prototype-yuan-xing-mo-shi.md)
+  * [Adapter 适配器模式](design-pattern/adapter-shi-pei-qi-mo-shi.md)
+  * [Bridge 桥接模式](design-pattern/bridge-qiao-jie-mo-shi.md)
+  * [Proxy 代理模式](design-pattern/proxy-dai-li-mo-shi.md)
+  * [Decorator 装饰模式](design-pattern/decorator-zhuang-shi-mo-shi.md)
+  * [Composite 组合模式](design-pattern/composite-zu-he-mo-shi.md)
+  * [Facade 外观模式](design-pattern/facade-wai-guan-mo-shi.md)
+  * [Flyweight 享元模式](design-pattern/flyweight-xiang-yuan-mo-shi.md)
 
