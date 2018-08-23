@@ -24,4 +24,7 @@
   * [Common](linux/common.md)
   * [SSH](linux/ssh.md)
   * [修改redhat的源变成centos](linux/xiu-gai-redhat-de-yuan-bian-cheng-centos.md)
+* [Design Pattern](design-pattern/README.md)
+  * [Singleton 单例模式](design-pattern/singleton-dan-li-mo-shi.md)
+  * [Factory &  Abstract Factory 工厂模式和抽象工厂](design-pattern/factory-abstract-factory-gong-chang-mo-shi-he-chou-xiang-gong-chang.md)
 
