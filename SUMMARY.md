@@ -2,7 +2,7 @@
 
 * [Initial page](README.md)
 * [Python](python/README.md)
-  * [test](python/test.md)
+  * [Pandas-R](python/pandas-r.md)
 * [Java](java/README.md)
   * [Java Common](java/common-1/README.md)
     * [20个非常有用的Java程序片段](java/common-1/20-ge-fei-chang-you-yong-de-java-cheng-xu-pian-duan.md)
