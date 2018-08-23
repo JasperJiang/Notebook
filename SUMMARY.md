@@ -36,4 +36,5 @@
   * [Composite 组合模式](design-pattern/composite-zu-he-mo-shi.md)
   * [Facade 外观模式](design-pattern/facade-wai-guan-mo-shi.md)
   * [Flyweight 享元模式](design-pattern/flyweight-xiang-yuan-mo-shi.md)
+  * [Observer 观察者模式](design-pattern/observer-guan-cha-zhe-mo-shi.md)
 
