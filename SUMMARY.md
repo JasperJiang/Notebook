@@ -43,4 +43,6 @@
   * [Alfred 实用](mac/alfred-shi-yong.md)
   * [Brew](mac/brew.md)
   * [Iterm](mac/iterm.md)
+* [Mongo](mongo/README.md)
+  * [Mongo Common](mongo/mongo-common.md)
 
