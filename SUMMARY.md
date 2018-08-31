@@ -24,6 +24,7 @@
   * [Common](linux/common.md)
   * [SSH](linux/ssh.md)
   * [修改redhat的源变成centos](linux/xiu-gai-redhat-de-yuan-bian-cheng-centos.md)
+  * [oh my zsh](linux/oh-my-zsh.md)
 * [Design Pattern](design-pattern/README.md)
   * [Singleton 单例模式](design-pattern/singleton-dan-li-mo-shi.md)
   * [Factory &  Abstract Factory 工厂模式和抽象工厂](design-pattern/factory-abstract-factory-gong-chang-mo-shi-he-chou-xiang-gong-chang.md)
@@ -37,4 +38,9 @@
   * [Facade 外观模式](design-pattern/facade-wai-guan-mo-shi.md)
   * [Flyweight 享元模式](design-pattern/flyweight-xiang-yuan-mo-shi.md)
   * [Observer 观察者模式](design-pattern/observer-guan-cha-zhe-mo-shi.md)
+* [Mac](mac/README.md)
+  * [Mac Common](mac/mac-common.md)
+  * [Alfred 实用](mac/alfred-shi-yong.md)
+  * [Brew](mac/brew.md)
+  * [Iterm](mac/iterm.md)
 
