@@ -30,6 +30,7 @@
   * [SSH](linux/ssh.md)
   * [修改redhat的源变成centos](linux/xiu-gai-redhat-de-yuan-bian-cheng-centos.md)
   * [oh my zsh](linux/oh-my-zsh.md)
+  * [Git](linux/git.md)
 * [Design Pattern](design-pattern/README.md)
   * [Singleton 单例模式](design-pattern/singleton-dan-li-mo-shi.md)
   * [Factory &  Abstract Factory 工厂模式和抽象工厂](design-pattern/factory-abstract-factory-gong-chang-mo-shi-he-chou-xiang-gong-chang.md)
@@ -56,4 +57,6 @@
   * [Express](nodejs/express.md)
   * [Yeoman](nodejs/yeoman.md)
   * [querystring参数处理](nodejs/querystring-can-shu-chu-li.md)
+* [Other](other/README.md)
+  * [外国人聊天常用的简化英语，你知道多少？](other/wai-guo-ren-liao-tian-chang-yong-de-jian-hua-ying-yu-ni-zhi-dao-duo-shao.md)
 
