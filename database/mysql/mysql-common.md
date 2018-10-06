@@ -21,6 +21,7 @@ Create User and change privilege
 ```sql
 use mysql;
 CREATE USER 'username'@'%' IDENTIFIED BY 'password'; 
+ALTER USER 'username'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' WITH GRANT OPTION;
 FLUSH   PRIVILEGES; 
 ```
