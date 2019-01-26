@@ -79,7 +79,7 @@ as root:
 
 pull完镜像后，可以看到
 
-### kubectl查看node和pod的状态 {#kubectl查看node和pod的状态}
+### kubectl查看node和pod的状态 <a id="kubectl&#x67E5;&#x770B;node&#x548C;pod&#x7684;&#x72B6;&#x6001;"></a>
 
 根据log提示，需要配置kubectl的配置，
 
