@@ -1,6 +1,10 @@
 # Common
 
+### 批量修改文件夹名字
 
+```bash
+find . -depth -type d -name OriginalName -exec sh -c 'mv "${0}" "${0%/OriginalName}/NewName"' {} \;
+```
 
 ### 查看CPU信息（型号）
 
