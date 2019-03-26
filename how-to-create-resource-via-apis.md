@@ -1,76 +1,8 @@
 # How to create resource via APIs
 
-{% api-method method="post" host="{{hostname}}" path="agent-service/api/createResource" %}
-{% api-method-summary %}
-createResource
-{% endapi-method-summary %}
+\[C_onfluence Guide_!\]\([https://nis.pwcinternal.com/confluence/pages/editpage.action?pageId=70058843](https://nis.pwcinternal.com/confluence/pages/editpage.action?pageId=70058843)\)
 
-{% api-method-description %}
-This endpoint allows you to get free cakes.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="idamToken" type="string" required=false %}
-IdAM Token
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="idamAccessToken" type="string" required=false %}
-IdAM AccessToken
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="apiKey" type="string" required=false %}
-API Key
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="componentType" type="array" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="resConfig" type="object" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="resourceDescription" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="resourceName" type="string" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="resourceType" type="string" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="file" type="object" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "id": 17894,
-    "name": "testPython",
-    "physicalName": "python2_test_0426.py",
-    "description": "this is description",
-    "isZip": false
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+![](.gitbook/assets/screen-shot-2019-03-25-at-21.49.17.png)
 
 **resourceType selections:**
 
