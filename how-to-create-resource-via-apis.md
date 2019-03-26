@@ -1,6 +1,6 @@
 # How to create resource via APIs
 
-\[C_onfluence Guide_!\]\([https://nis.pwcinternal.com/confluence/pages/editpage.action?pageId=70058843](https://nis.pwcinternal.com/confluence/pages/editpage.action?pageId=70058843)\)
+[https://nis.pwcinternal.com/confluence/pages/editpage.action?pageId=70058843](https://nis.pwcinternal.com/confluence/pages/editpage.action?pageId=70058843)
 
 ![](.gitbook/assets/screen-shot-2019-03-25-at-21.49.17.png)
 
