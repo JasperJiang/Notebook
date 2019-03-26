@@ -70,4 +70,5 @@
 * [InternetScience 😏](ke-xue-shang-wang/README.md)
   * [V2ray](ke-xue-shang-wang/v2ray.md)
   * [Shadowsocks](ke-xue-shang-wang/shadowsocks.md)
+* [How to create resource via APIs](how-to-create-resource-via-apis.md)
 
