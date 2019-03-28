@@ -3,7 +3,7 @@
 ### Check Version
 
 ```bash
-kubectl version
+$ kubectl version
 ```
 
 ```bash
@@ -18,7 +18,7 @@ GoVersion:"go1.9.3", Compiler:"gc", Platform:"linux/amd64"}
 ### Check Cluster Info
 
 ```bash
-kubectl cluster-info
+$ kubectl cluster-info
 ```
 
 ```bash
@@ -31,7 +31,7 @@ To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 ### Get Cluster Health
 
 ```bash
-kubectl get componentstatus
+$ kubectl get componentstatus
 ```
 
 ```bash
@@ -44,7 +44,7 @@ etcd-0               Healthy   {"health": "true"}
 ### Get APIServer End-Points
 
 ```bash
-kubectl api-versions
+$ kubectl api-versions
 ```
 
 ```bash
@@ -73,7 +73,7 @@ v1
 ### Get Nodes
 
 ```bash
-kubectl get nodes
+$ kubectl get nodes
 ```
 
 ```bash
@@ -85,7 +85,7 @@ k8s-worker-node-trainee1   Ready     <none>    2h        v1.10.0
 ### List Namespaces
 
 ```bash
-kubectl get namespaces
+$ kubectl get namespaces
 ```
 
 ```bash
@@ -176,5 +176,121 @@ We can use RBAC rules to regulate which key has access to which part of cluster.
 Imperative way \(Create\)  
 Declarative way \(Apply\)
 
-Difference b/w imperative vs declarative.
+### Difference b/w imperative vs declarative.
+
+**Imperative**
+
+The first mode for managing objects is to use the CLI and issue what we call imperative commands,   
+what this means is that objects are created and managed/modified using the CLI.
+
+All operations are done on live objects.
+
+```bash
+$ kubectl create ns app-space
+```
+
+To modify any of the objects you can use the kubectl edit command or use any of the convenience wrappers. For example to scale the deployment do:
+
+```bash
+$ kubectl scale deployment nginx --replicas 2 -n app-space
+```
+
+To create service imperative way:
+
+```bash
+$ kubectl create service clusterip foobar --tcp=80:80
+```
+
+in `kubectl create`, if we want to update the object we use `kubectl replace`, which remove the old object and   
+creates a new object.
+
+Updates to live objects must be reflected in configuration files, or they will be lost during the next replacement.
+
+**Declarative mode**
+
+In this mode, the creation, deletion and modification of objects is done via a single command
+
+```bash
+$ kubectl apply -f <object>.<yaml,json>
+```
+
+Declarative object configuration has better support for operating on directories and automatically   
+detecting operation types \(create, patch, delete\) per-object.
+
+Changes made directly to live objects are retained, even if they are not merged back into the configuration files.
+
+### API <a id="api"></a>
+
+#### Without `kubectl proxy` <a id="without-kubectl-proxy"></a>
+
+Without the `kubectl proxy` we can get the `Bearer Token` using `kubectl` and then send it with the API request.
+
+* Get the token
+
+```bash
+ $ TOKEN=$(kubectl describe secret $(kubectl get secrets | grep default | cut -f1 -d ' ') | grep -E '^token' | cut -f2 -d':' | tr -d '\t')
+```
+
+* Get the `API Server` endpoint
+
+```bash
+$ kubectl create service clusterip foobar --tcp=80:80
+```
+
+* Access the `API Server` using the curl as shown below.
+
+```bash
+$ curl $APISERVER/api/v1 --header "Authorization: Bearer $TOKEN" --insecure
+```
+
+```text
+{
+  "kind": "APIResourceList",
+  "groupVersion": "v1",
+  "resources": [
+    {
+      "name": "bindings",
+      "singularName": "",
+      "namespaced": true,
+      "kind": "Binding",
+      "verbs": [
+        "create"
+      ]
+    },
+...
+```
+
+#### With `kubectl proxy` <a id="with-kubectl-proxy"></a>
+
+* First configure `kubectl proxy`
+
+```text
+$  kubectl proxy &
+```
+
+* When `kubectl proxy` is configured then we can send the requests to `localhost` on the `proxy port` like following :-
+
+```bash
+ $ curl http://localhost:8001/
+```
+
+```text
+{
+  "paths": [
+    "/api",
+    "/api/v1",
+    "/apis",
+    "/apis/apps",
+    ......
+    ......
+    "/logs",
+    "/metrics",
+    "/swaggerapi/",
+    "/ui/",
+    "/version"
+  ]
+}%
+```
+
+With above `CURL` request, we requested all the `API endpoints`from the `API Server`.
 
