@@ -29,6 +29,7 @@
   * [Docker command](docker/docker-command.md)
   * [Database Container](docker/database-container.md)
 * [Kubernates](kubernetes/README.md)
+  * [1. core concept](kubernetes/commands.md)
   * [Install in Ubuntu](kubernetes/install-in-ubuntu.md)
 * [Linux](linux/README.md)
   * [Common](linux/common.md)
@@ -70,5 +71,4 @@
 * [InternetScience 😏](ke-xue-shang-wang/README.md)
   * [V2ray](ke-xue-shang-wang/v2ray.md)
   * [Shadowsocks](ke-xue-shang-wang/shadowsocks.md)
-* [How to create resource via APIs](how-to-create-resource-via-apis.md)
 
