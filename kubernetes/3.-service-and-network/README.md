@@ -1,2 +1,2 @@
-# 3. Service and Network
+# 3. Service
 
