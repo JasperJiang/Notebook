@@ -1,4 +1,4 @@
-# 1. core concept
+# 1. Core Concept
 
 ### Check Version
 

@@ -180,9 +180,6 @@ nginx-parallel   10        10           2m
 
 ```text
 $ kubectl delete jobs nginx-parallel
-kubectl delete cronjob cron-job-demo
+$ kubectl delete cronjob cron-job-demo
 ```
-
-This terminal is attached to your own container running at 127.0.0.1:8123.  [Click here](https://cloudyuga.guru/courses/bd4921d0-67ce-4519-8bab-93b2aa7fea1c/container_selection)  to use our hosted container.  
-
 
