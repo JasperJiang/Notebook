@@ -37,6 +37,7 @@
   * [3. Service](kubernetes/3.-service-and-network/README.md)
     * [ClusterIP](kubernetes/3.-service-and-network/clusterip.md)
     * [NodePort](kubernetes/3.-service-and-network/nodeport.md)
+    * [LoadBalancer](kubernetes/3.-service-and-network/loadbalancer.md)
   * [Install in Ubuntu](kubernetes/install-in-ubuntu.md)
 * [Linux](linux/README.md)
   * [Common](linux/common.md)
