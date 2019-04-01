@@ -29,6 +29,7 @@
   * [Docker command](docker/docker-command.md)
   * [Database Container](docker/database-container.md)
 * [Kubernates](kubernetes/README.md)
+  * [Daemon Sets](kubernetes/daemon-sets.md)
   * [1. core concept](kubernetes/commands.md)
   * [Install in Ubuntu](kubernetes/install-in-ubuntu.md)
 * [Linux](linux/README.md)
