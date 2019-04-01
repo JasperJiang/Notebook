@@ -186,6 +186,9 @@ $ kubectl run demo -it --rm --image=python /bin/sh
 ```text
 If you don't see a command prompt, try pressing enter.
 # curl 100.116.17.184
+```
+
+```markup
 <!DOCTYPE html>
 <html>
 <head>
