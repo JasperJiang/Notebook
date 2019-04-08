@@ -104,6 +104,12 @@ apt-get install vim
 netstat -rn
 ```
 
+### 查看端口使用情况
+
+```bash
+netstat -tulpn | grep 8080
+```
+
 ### 查看进程cpu占用情况
 
 ```bash
