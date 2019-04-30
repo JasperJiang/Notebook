@@ -40,6 +40,8 @@
     * [LoadBalancer](kubernetes/3.-service-and-network/loadbalancer.md)
   * [Install in Ubuntu](kubernetes/install-in-ubuntu.md)
 * [Linux](linux/README.md)
+  * [Useful Shell Scripts](linux/useful-shell-scripts.md)
+  * [Crontab](linux/crontab.md)
   * [Common](linux/common.md)
   * [SSH](linux/ssh.md)
   * [修改redhat的源变成centos](linux/xiu-gai-redhat-de-yuan-bian-cheng-centos.md)
