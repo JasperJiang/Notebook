@@ -42,7 +42,7 @@
 * [Linux](linux/README.md)
   * [Useful Shell Scripts](linux/useful-shell-scripts.md)
   * [Crontab](linux/crontab.md)
-  * [Common](linux/common.md)
+  * [Command](linux/common.md)
   * [SSH](linux/ssh.md)
   * [修改redhat的源变成centos](linux/xiu-gai-redhat-de-yuan-bian-cheng-centos.md)
   * [oh my zsh](linux/oh-my-zsh.md)

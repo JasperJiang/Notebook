@@ -1,4 +1,4 @@
-# Common
+# Command
 
 ### 批量修改文件夹名字
 
@@ -128,5 +128,17 @@ vi /etc/network/interfaces
 auto eth0
 iface eth0 inet static
 address 192.168.8.100    
+```
+
+### 搜索所有文件中的关键字
+
+```bash
+grep -r -i "search text" *
+```
+
+### 替换所有文件中的文字
+
+```bash
+sed -i 's/old-text/new-text/g' *
 ```
 
