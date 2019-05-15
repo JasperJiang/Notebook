@@ -142,3 +142,11 @@ grep -r -i "search text" *
 sed -i 's/old-text/new-text/g' *
 ```
 
+### 查看Debian Version
+
+```bash
+cat /etc/issue
+```
+
+
+
