@@ -40,5 +40,9 @@ cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
 git remote set-url origin https://github.com/Homebrew/homebrew-core.git
 ```
 
+更新brew
 
+```bash
+brew update --debug --verbose
+```
 
