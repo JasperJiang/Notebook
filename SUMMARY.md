@@ -2,7 +2,8 @@
 
 * [Initial page](README.md)
 * [Python](python/README.md)
-  * [Jupyter](python/jupyter.md)
+  * [Jupyter](python/jupyter/README.md)
+    * [Kernel](python/jupyter/kernel.md)
   * [Pandas](python/pandas/README.md)
     * [Pandas-R](python/pandas/pandas-r.md)
   * [Django](python/django/README.md)
