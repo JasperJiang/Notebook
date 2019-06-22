@@ -25,5 +25,7 @@ pip install jupyterlab
 jupyter lab --port 8001 --no-browser
 ```
 
-
+```python
+from notebook.auth import passwd; passwd()
+```
 
