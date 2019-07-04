@@ -126,5 +126,28 @@ public class HelloWorldController{
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
+### Web MVC 注解驱动
+
+版本依赖 Spring Framework 3.1+
+
+* 注解配置：`@Configuration` \(Spring 范式注解\)
+* 组件激活：`@EnableWebMvc` \(Spring 模式装配\)
+* 自定义组件：`WebMvcConfigurer` \(Spring Bean\)
+* 模型属性：`@ModelAttribute`
+* 请求头：`@RequestHeader`
+* Cookie: `@CookieValue`
+* 校验参数：`@Valid`, `@Validated`
+* 注解处理：`@ExceptionHandler`
+* 切面通知：`@ControllerAdvice`
+
+### Web MVC 自动装配
+
+* Servlet依赖: Servlet 3.0+
+* Spring SPI:  ServletContainerInitializer
+* Spring 适配：SpringServletContainerInitializer
+* Spring SPI: WebApplicationInitializer
+* 编程驱动：AbstractDispatcherServletInitializer
+* 注解驱动：AbstractAnnotationConfigDispatcherServletInitializer
+
 
 
