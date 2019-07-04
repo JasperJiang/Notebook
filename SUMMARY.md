@@ -41,6 +41,7 @@
       * [Spring Framework 手动装配](java/spring-boot/zi-dong-zhuang-pei/spring-framework-shou-dong-zhuang-pei.md)
       * [Spring Boot 自动装配](java/spring-boot/zi-dong-zhuang-pei/spring-boot-zi-dong-zhuang-pei.md)
     * [理解 Spring Application](java/spring-boot/li-jie-spring-application.md)
+    * [Web MVC 核心](java/spring-boot/web-mvc-he-xin-1.md)
 * [Docker](docker/README.md)
   * [Move docker lib](docker/docker-common.md)
   * [Docker command](docker/docker-command.md)
