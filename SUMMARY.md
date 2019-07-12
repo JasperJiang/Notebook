@@ -1,6 +1,14 @@
 # Table of contents
 
 * [Initial page](README.md)
+* [Cloudera Hadoop](cloudera-hadoop/README.md)
+  * [Hadoop Basics](cloudera-hadoop/hadoop-basics.md)
+  * [HDFS](cloudera-hadoop/hdfs.md)
+  * [MapReduce and YARN](cloudera-hadoop/mapreduce-and-yarn.md)
+  * [Flume and Kafka](cloudera-hadoop/flume-and-kafka.md)
+  * [Hive and Impala](cloudera-hadoop/hive-and-impala.md)
+  * [Cloudera Search](cloudera-hadoop/cloudera-search.md)
+  * [HBase](cloudera-hadoop/hbase.md)
 * [Python](python/README.md)
   * [Jupyter](python/jupyter/README.md)
     * [Kernel](python/jupyter/kernel.md)

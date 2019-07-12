@@ -1,6 +1,6 @@
 # Spring Bean 生命周期
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 再谈生命周期之前有一点需要先明确：
 

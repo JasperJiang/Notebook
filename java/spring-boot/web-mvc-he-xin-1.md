@@ -6,13 +6,13 @@
 
 ### 核心架构：前段控制器（Front Controller）
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 {% embed url="http://www.corej2eepatterns.com/FrontController.htm" %}
 
 ### Spring Web MVC 架构
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ## 认识Spring Web MVC
 
@@ -124,7 +124,7 @@ public class HelloWorldController{
 
 * 异常解析：HandlerExceptionResolver
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 ### Web MVC 注解驱动
 
