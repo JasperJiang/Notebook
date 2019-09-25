@@ -88,6 +88,7 @@
   * [Flyweight 享元模式](design-pattern/flyweight-xiang-yuan-mo-shi.md)
   * [Observer 观察者模式](design-pattern/observer-guan-cha-zhe-mo-shi.md)
 * [Mac](mac/README.md)
+  * [烧录IOS](mac/shao-lu-ios.md)
   * [Mac Common](mac/mac-common.md)
   * [Alfred 实用](mac/alfred-shi-yong.md)
   * [Brew](mac/brew.md)
