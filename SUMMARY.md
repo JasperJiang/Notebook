@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Initial page](README.md)
+* [Raspberry](raspberry/README.md)
+  * [network settings](raspberry/network-settings.md)
 * [Cloudera Hadoop](cloudera-hadoop/README.md)
   * [Hadoop Basics](cloudera-hadoop/hadoop-basics.md)
   * [HDFS](cloudera-hadoop/hdfs.md)
