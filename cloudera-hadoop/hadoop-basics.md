@@ -32,7 +32,7 @@ Hadoop is a software frame work for storing, processing, and analyzing "big data
 * Increasing load results in a graceful decline in performance
   * Not failure of the system
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 
 ### Hadoop is Fault Tolerance
 
@@ -45,7 +45,7 @@ Hadoop is a software frame work for storing, processing, and analyzing "big data
 
 ### Examples of Hadoop ecosystem projects
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 
 

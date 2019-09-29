@@ -8,7 +8,7 @@
 
 ### 类图
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 ## 观察者模式（Observer Pattern）
 
@@ -18,7 +18,7 @@
 
 ### 类图
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 ### 装饰者模式（Decorator Pattern）
 
@@ -32,7 +32,7 @@
 
 ## 简单工厂模式
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ## 工厂方法模式（Factory Method Pattern）
 
@@ -42,7 +42,7 @@
 
 ### 类图
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 ## 抽象工厂模式（Abstract Factory Pattern）
 
@@ -54,7 +54,7 @@
 
 ### 类图
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ## 单例模式（Singleton Pattern）
 
@@ -66,7 +66,7 @@
 
 
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 ## 命令模式（Command Pattern）
 
@@ -90,7 +90,7 @@ public void execute() {
 
 适配器模式将一个类的接口，转换成客户期望的另一个接口。适配器让原本接口不兼容的类可以合作无间。
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 ## 外观模式（Facade Pattern）
 
@@ -102,5 +102,23 @@ public void execute() {
 
 ![](../.gitbook/assets/image.png)
 
+## 迭代器模式（Iterator Pattern）
 
+### 定义
+
+迭代器模式提供一种方法顺序访问一个聚合对象中的各个元素，而又不暴露其内部的表示
+
+### 类图
+
+![](../.gitbook/assets/image%20%2812%29.png)
+
+## 组合模式（Composite Pattern）
+
+### 定义
+
+组合模式允许你将对象组合成树形结构来表现“整体/部分层次结构。组合能让客户以一致的方式处理个别对象以及对象组合。
+
+### 类图
+
+![](../.gitbook/assets/ping-mu-kuai-zhao-20190929-20.28.37.png)
 

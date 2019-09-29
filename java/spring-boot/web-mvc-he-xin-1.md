@@ -12,7 +12,7 @@
 
 ### Spring Web MVC 架构
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ## 认识Spring Web MVC
 
@@ -124,7 +124,7 @@ public class HelloWorldController{
 
 * 异常解析：HandlerExceptionResolver
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 ### Web MVC 注解驱动
 
