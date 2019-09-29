@@ -19,7 +19,7 @@ Does not require a developer who knows Java, Scala, Python or other traditional 
 
 Well suited for dealing with structured data, or data which can have a structure applied to it
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ## Impala
 

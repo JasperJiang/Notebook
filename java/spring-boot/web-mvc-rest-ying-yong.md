@@ -72,11 +72,11 @@ REST = RESTful = Representational State Transfer
 
 ### Spring Web MVC REST 处理流程
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ### Spring Web MVC REST 内容协商处理流程
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 ### 理解可请求的媒体类型
 

@@ -29,7 +29,7 @@
 * **Each block is replicated on multiple nodes \(default: 3x replication\)**
 * **NameNode stores metadata**
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -47,9 +47,9 @@
 
 ### Storing and Retrieving Files
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 

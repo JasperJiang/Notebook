@@ -14,7 +14,7 @@ A table can have many thousands of columns
 
 Designed to store very large amounts of data \(Petabytes+\)
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 **Use HBase if ...**
 
