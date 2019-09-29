@@ -26,3 +26,30 @@
 
 　　原则是尽量使用合成/聚合的方式，而不是使用继承。继承实际上破坏了类的封装性，超类的方法可能会被子类修改。
 
+### 针对借口编程，而不是针对实现编程
+
+### 最少知识原则：只和你的密友谈话
+
+**不采用**这个原则
+
+```java
+public float getTemp(){
+    Thermometer thermometer = station.getThermometer();
+    return thermometer.getTemperature();
+}
+```
+
+这里，我们从天气站取得了温度计对象，然后再从温度计对象取得温度
+
+**采用**这个原则
+
+```java
+public float getTemp(){
+    return station.getTemperature();
+}
+```
+
+应用此原则时，我们在气象站中加进一个方法，用来向温度计请求温度。这可以减少我们所依赖的类的数目。
+
+
+
