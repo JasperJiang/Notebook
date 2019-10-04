@@ -54,7 +54,7 @@
 
 ### 类图
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 ## 单例模式（Singleton Pattern）
 
@@ -90,7 +90,7 @@ public void execute() {
 
 适配器模式将一个类的接口，转换成客户期望的另一个接口。适配器让原本接口不兼容的类可以合作无间。
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 ## 外观模式（Facade Pattern）
 
@@ -121,4 +121,14 @@ public void execute() {
 ### 类图
 
 ![](../.gitbook/assets/ping-mu-kuai-zhao-20190929-20.28.37.png)
+
+## 状态模式（State Pattern）
+
+### 定义
+
+状态模式允许对象在内部状态改变时改变它的行为，对象看起来好像修改了它的类
+
+### 类图
+
+![](../.gitbook/assets/image%20%2833%29.png)
 
