@@ -110,6 +110,10 @@ netstat -rn
 netstat -tulpn | grep 8080
 ```
 
+```bash
+lsof -i -P -n
+```
+
 ### 查看进程cpu占用情况
 
 ```bash
