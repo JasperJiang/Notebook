@@ -58,6 +58,7 @@
   * [Docker command](docker/docker-command.md)
   * [Database Container](docker/database-container.md)
 * [Kubernates](kubernetes/README.md)
+  * [Minikube](kubernetes/minikube.md)
   * [Command](kubernetes/command.md)
   * [1. Core Concept](kubernetes/commands.md)
   * [2. Pod Design](kubernetes/2.-pod-design/README.md)
