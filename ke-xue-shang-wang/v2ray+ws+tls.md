@@ -39,9 +39,14 @@ sudo chmod 777 /etc/ssl/caddy
 
 #make caddy as a service
 sudo curl -s https://raw.githubusercontent.com/mholt/caddy/master/dist/init/linux-systemd/caddy.service -o /etc/systemd/system/caddy.service
+
+# !!!for centos change user & group in  /etc/systemd/system/caddy.service
+
 sudo systemctl daemon-reload
 sudo systemctl enable caddy.service
 sudo systemctl status caddy.service
+
+
 ```
 
 ## edit /etc/caddy/Caddyfile
