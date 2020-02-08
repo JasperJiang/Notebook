@@ -71,6 +71,7 @@
     * [LoadBalancer](kubernetes/3.-service-and-network/loadbalancer.md)
   * [Install in Ubuntu](kubernetes/install-in-ubuntu.md)
 * [Linux](linux/README.md)
+  * [RSA](linux/rsa.md)
   * [Useful Shell Scripts](linux/useful-shell-scripts.md)
   * [Crontab](linux/crontab.md)
   * [Command](linux/common.md)
