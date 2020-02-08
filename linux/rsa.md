@@ -4,7 +4,7 @@
 
 ```bash
 openssl
-genrsa -out test.pem 1024
+genrsa -out rsa_private_key.pem 1024
 ```
 
 ### Change RSA to PKCS8
