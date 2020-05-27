@@ -21,6 +21,7 @@
   * [Virtualenv](python/virtualenv.md)
   * [Pyenv](python/pyenv.md)
   * [Code segment](python/code-segment/README.md)
+    * [Photo](python/code-segment/photo.md)
     * [Email](python/code-segment/email.md)
     * [Crawler 爬虫](python/code-segment/crawler-pa-chong.md)
 * [Java](java/README.md)
