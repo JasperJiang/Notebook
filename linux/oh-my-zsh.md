@@ -24,5 +24,13 @@ chsh -s /bin/bash
 ZSH_THEME="af-magic"
 ```
 
+插件
 
+```text
+plugins=(git z extract zsh-autosuggestions)
+```
+
+安装zsh-sutosuggestions
+
+[https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md\#oh-my-zsh](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
