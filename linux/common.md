@@ -152,5 +152,10 @@ sed -i 's/old-text/new-text/g' *
 cat /etc/issue
 ```
 
+### 清理journalctl
+
+```bash
+journalctl --vacuum-time=4d
+```
 
 
