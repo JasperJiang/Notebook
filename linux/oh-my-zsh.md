@@ -27,7 +27,7 @@ ZSH_THEME="af-magic"
 ### 插件
 
 ```text
-plugins=(git z extract zsh-autosuggestions vscode)
+plugins=(git z extract zsh-autosuggestions vscode zsh-syntax-highlighting)
 ```
 
 #### 安装zsh-sutosuggestions
