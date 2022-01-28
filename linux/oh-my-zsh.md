@@ -43,5 +43,6 @@ git clone https://github.com/valentinocossar/vscode.git ${ZSH_CUSTOM:-~/.oh-my-z
 
 #### 安装zsh-syntax-highlighting
 
-[https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md\#oh-my-zsh](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-
+```text
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
